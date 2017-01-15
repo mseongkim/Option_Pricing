@@ -1,2 +1,2 @@
 # Option_pricing
-Option pricing with Greeks calculation
+Option pricing based on object-oriented programming
