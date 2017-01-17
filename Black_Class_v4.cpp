@@ -17,7 +17,6 @@ public:
 	virtual void ContiUniform() {};
 	virtual void K_square() {};
 	virtual void Poisson() {};
-
 };
 
 class StandardNormal : public Distribution
@@ -47,8 +46,6 @@ public:
 		{
 			return 1.0 - N(-Num);
 		}
-
-
 	}
 	//standard normal distribution function
 	double NormDist(const double &m_Num)
